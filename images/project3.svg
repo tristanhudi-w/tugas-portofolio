@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360">
+  <defs>
+    <linearGradient id="p3Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#1f2937" />
+    </linearGradient>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ec4899" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="360" fill="url(#p3Bg)" rx="16" />
+
+  <!-- App Window Frame -->
+  <rect x="25" y="25" width="550" height="310" rx="12" fill="#181f2f" stroke="#374151" stroke-width="2" />
+  <rect x="25" y="25" width="550" height="38" rx="12" fill="#0f1422" />
+  <circle cx="45" cy="44" r="6" fill="#ef4444" />
+  <circle cx="63" cy="44" r="6" fill="#f59e0b" />
+  <circle cx="81" cy="44" r="6" fill="#10b981" />
+  <text x="300" y="48" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle">Budhi Warman Radio Broadcast &amp; Event Planner Portal</text>
+
+  <!-- Left: Audio Broadcast Waveform -->
+  <rect x="42" y="76" width="310" height="150" rx="8" fill="#0b0f19" stroke="#1f2937" stroke-width="1" />
+  <text x="56" y="98" fill="#f43f5e" font-family="system-ui, sans-serif" font-weight="bold" font-size="11">● ON AIR BROADCAST</text>
+  <text x="56" y="118" fill="#f8fafc" font-family="system-ui, sans-serif" font-weight="bold" font-size="14">Program Siaran Budaya &amp; Edukasi Siswa</text>
+
+  <!-- Sound Wave Bars -->
+  <g transform="translate(56, 140)">
+    <rect x="0" y="20" width="6" height="30" rx="3" fill="url(#waveGrad)" />
+    <rect x="12" y="10" width="6" height="50" rx="3" fill="url(#waveGrad)" />
+    <rect x="24" y="0" width="6" height="70" rx="3" fill="url(#waveGrad)" />
+    <rect x="36" y="25" width="6" height="20" rx="3" fill="url(#waveGrad)" />
+    <rect x="48" y="15" width="6" height="40" rx="3" fill="url(#waveGrad)" />
+    <rect x="60" y="5" width="6" height="60" rx="3" fill="url(#waveGrad)" />
+    <rect x="72" y="18" width="6" height="34" rx="3" fill="url(#waveGrad)" />
+    <rect x="84" y="0" width="6" height="70" rx="3" fill="url(#waveGrad)" />
+    <rect x="96" y="12" width="6" height="46" rx="3" fill="url(#waveGrad)" />
+    <rect x="108" y="25" width="6" height="20" rx="3" fill="url(#waveGrad)" />
+    <rect x="120" y="8" width="6" height="54" rx="3" fill="url(#waveGrad)" />
+    <rect x="132" y="0" width="6" height="70" rx="3" fill="url(#waveGrad)" />
+    <rect x="144" y="15" width="6" height="40" rx="3" fill="url(#waveGrad)" />
+    <rect x="156" y="22" width="6" height="26" rx="3" fill="url(#waveGrad)" />
+    <rect x="168" y="5" width="6" height="60" rx="3" fill="url(#waveGrad)" />
+    <rect x="180" y="12" width="6" height="46" rx="3" fill="url(#waveGrad)" />
+    <rect x="192" y="0" width="6" height="70" rx="3" fill="url(#waveGrad)" />
+    <rect x="204" y="15" width="6" height="40" rx="3" fill="url(#waveGrad)" />
+    <rect x="216" y="25" width="6" height="20" rx="3" fill="url(#waveGrad)" />
+    <rect x="228" y="10" width="6" height="50" rx="3" fill="url(#waveGrad)" />
+    <rect x="240" y="20" width="6" height="30" rx="3" fill="url(#waveGrad)" />
+    <rect x="252" y="5" width="6" height="60" rx="3" fill="url(#waveGrad)" />
+    <rect x="264" y="18" width="6" height="34" rx="3" fill="url(#waveGrad)" />
+  </g>
+
+  <!-- Right: Event & Content Schedule -->
+  <rect x="366" y="76" width="192" height="240" rx="8" fill="#0b0f19" stroke="#1f2937" stroke-width="1" />
+  <text x="380" y="98" fill="#38bdf8" font-family="system-ui, sans-serif" font-weight="bold" font-size="12">Manajemen Konten &amp; Event</text>
+
+  <!-- Item 1 -->
+  <rect x="378" y="112" width="168" height="46" rx="6" fill="#181f2f" />
+  <text x="388" y="130" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="10" font-weight="bold">Festival Sastra &amp; Budaya</text>
+  <text x="388" y="146" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="9">Ketua Pelaksana • Sukses</text>
+
+  <!-- Item 2 -->
+  <rect x="378" y="166" width="168" height="46" rx="6" fill="#181f2f" />
+  <text x="388" y="184" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="10" font-weight="bold">English Speech Workshop</text>
+  <text x="388" y="200" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="9">Public Speaking • 120+ Peserta</text>
+
+  <!-- Item 3 -->
+  <rect x="378" y="220" width="168" height="46" rx="6" fill="#181f2f" />
+  <text x="388" y="238" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="10" font-weight="bold">Podcast &amp; Video Editing</text>
+  <text x="388" y="254" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="9">Canva &amp; VN App Production</text>
+
+  <!-- Bottom Left: Skill Badges -->
+  <rect x="42" y="236" width="310" height="80" rx="8" fill="#0b0f19" stroke="#1f2937" stroke-width="1" />
+  <text x="56" y="258" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">Keahlian Pendukung Media &amp; Komunikasi</text>
+  <text x="56" y="282" fill="#38bdf8" font-family="monospace" font-size="10">[Public Speaking] [Teamwork] [VN] [Canva]</text>
+  <text x="56" y="302" fill="#34d399" font-family="monospace" font-size="10">[Event Management] [Broadcasting Audio]</text>
+</svg>

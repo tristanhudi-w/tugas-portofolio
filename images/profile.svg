@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="avatarGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fed7aa" />
+      <stop offset="100%" stop-color="#fdba74" />
+    </linearGradient>
+    <linearGradient id="shirtGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Circle -->
+  <circle cx="200" cy="200" r="190" fill="url(#bgGrad)" />
+  <circle cx="200" cy="200" r="185" fill="none" stroke="url(#avatarGlow)" stroke-width="4" stroke-dasharray="8 6" />
+
+  <!-- Code Decor Background Elements -->
+  <text x="40" y="110" font-family="monospace" font-size="20" fill="#38bdf8" opacity="0.4">&lt;coder&gt;</text>
+  <text x="290" y="280" font-family="monospace" font-size="20" fill="#818cf8" opacity="0.4">&lt;/dev&gt;</text>
+  <text x="60" y="270" font-family="monospace" font-size="16" fill="#34d399" opacity="0.4">{ html, css }</text>
+
+  <!-- Developer Silhouette / Illustration -->
+  <g id="person">
+    <!-- Body / Shoulders -->
+    <path d="M110 370 C110 300, 150 270, 200 270 C250 270, 290 300, 290 370 Z" fill="url(#shirtGrad)" />
+    <!-- Collar & Shirt detail -->
+    <polygon points="180,270 200,305 220,270" fill="#f8fafc" />
+    <path d="M175 270 L200 320 L225 270" stroke="#0284c7" stroke-width="2" fill="none" />
+
+    <!-- Neck -->
+    <rect x="185" y="230" width="30" height="45" rx="6" fill="url(#skinGrad)" />
+
+    <!-- Head -->
+    <ellipse cx="200" cy="180" rx="48" ry="58" fill="url(#skinGrad)" />
+
+    <!-- Hair -->
+    <path d="M152 170 C150 120, 180 110, 200 110 C230 110, 250 125, 248 165 C242 145, 230 140, 215 140 C190 140, 175 145, 152 170 Z" fill="#1e293b" />
+    <path d="M150 170 Q145 190 152 205 Q156 185 156 170 Z" fill="#1e293b" />
+
+    <!-- Glasses Frame -->
+    <rect x="165" y="165" width="28" height="20" rx="5" fill="none" stroke="#0f172a" stroke-width="3.5" />
+    <rect x="207" y="165" width="28" height="20" rx="5" fill="none" stroke="#0f172a" stroke-width="3.5" />
+    <line x1="193" y1="174" x2="207" y2="174" stroke="#0f172a" stroke-width="3.5" />
+    <path d="M165 172 L152 168" stroke="#0f172a" stroke-width="3" />
+    <path d="M235 172 L248 168" stroke="#0f172a" stroke-width="3" />
+
+    <!-- Eyes (behind glasses) -->
+    <circle cx="179" cy="175" r="3.5" fill="#0f172a" />
+    <circle cx="221" cy="175" r="3.5" fill="#0f172a" />
+
+    <!-- Eyebrows -->
+    <path d="M167 158 Q179 154 189 158" stroke="#1e293b" stroke-width="3" stroke-linecap="round" fill="none" />
+    <path d="M211 158 Q221 154 233 158" stroke="#1e293b" stroke-width="3" stroke-linecap="round" fill="none" />
+
+    <!-- Nose -->
+    <path d="M200 178 L197 192 L203 192" stroke="#ea580c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+
+    <!-- Friendly Smile -->
+    <path d="M188 206 Q200 218 212 206" stroke="#c2410c" stroke-width="2.8" stroke-linecap="round" fill="none" />
+
+    <!-- Modern Headphones -->
+    <path d="M148 175 C145 140, 160 120, 200 120 C240 120, 255 140, 252 175" stroke="#38bdf8" stroke-width="6" fill="none" />
+    <rect x="142" y="165" width="12" height="26" rx="5" fill="#0284c7" />
+    <rect x="246" y="165" width="12" height="26" rx="5" fill="#0284c7" />
+  </g>
+
+  <!-- Floating Badge: TH initials -->
+  <g transform="translate(270, 70)">
+    <circle cx="25" cy="25" r="24" fill="#0284c7" stroke="#ffffff" stroke-width="3" />
+    <text x="25" y="32" font-family="system-ui, sans-serif" font-weight="bold" font-size="16" fill="#ffffff" text-anchor="middle">TH</text>
+  </g>
+</svg>

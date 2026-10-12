@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Katalog Portofolio, Proyek, dan Tabel Rekam Jejak Tristan Hudi Wibisono - Mahasiswa S1 Teknik Informatika Paramadina & Spesialis Jaringan TKJ.">
+  <meta name="author" content="Tristan Hudi Wibisono">
+  <title>Pengalaman &amp; Proyek | Tristan Hudi Wibisono</title>
+
+  <!-- Google Fonts (Inter) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 1. Bootstrap 5.3.3 CSS via CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- 2. Bootstrap Icons 1.11.3 via CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- 3. Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       HEADER & NAVIGASI SITUS (HTML5 Semantic: <header> & <nav>)
+       ========================================================================= -->
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3" aria-label="Navigasi Utama">
+      <div class="container">
+        <!-- Logo Brand -->
+        <a class="navbar-brand-wrap" href="index.html">
+          <span class="brand-badge">THW</span>
+          <div>
+            <span class="brand-name">Tristan Hudi Wibisono</span>
+            <span class="brand-sub">Informatics &amp; Network Specialist</span>
+          </div>
+        </a>
+
+        <!-- Hamburger Toggler (≈ 375px) -->
+        <button class="navbar-toggler border-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPortfolio" aria-controls="navbarPortfolio" aria-expanded="false" aria-label="Alihkan menu navigasi">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu Navigasi -->
+        <div class="collapse navbar-collapse" id="navbarPortfolio">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"><i class="bi bi-house-door me-1"></i>Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#tentang"><i class="bi bi-person me-1"></i>Tentang Saya</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="portofolio.html"><i class="bi bi-folder2-open me-1"></i>Pengalaman &amp; Proyek</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kontak.html"><i class="bi bi-envelope me-1"></i>Kontak</a>
+            </li>
+            <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+              <a class="btn btn-primary btn-sm px-3" href="kontak.html">
+                <i class="bi bi-chat-dots-fill me-1"></i>Hubungi Saya
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- =========================================================================
+       KONTEN UTAMA (HTML5 Semantic: <main>)
+       ========================================================================= -->
+  <main>
+
+    <!-- INTRO HEADER HALAMAN -->
+    <section class="bg-dark text-white py-5">
+      <div class="container text-center text-md-start">
+        <div class="row align-items-center g-4">
+          <div class="col-12 col-md-8">
+            <span class="badge bg-primary px-3 py-2 text-uppercase mb-2">Showcase &amp; Data Teknis</span>
+            <h1 class="display-5 fw-bold mb-2">Katalog Pengalaman &amp; Proyek</h1>
+            <p class="text-secondary lead mb-0">
+              Rangkuman komprehensif karya visual, implementasi topologi jaringan MikroTik, data riwayat pekerjaan industri, dan metodologi kerja profesional.
+            </p>
+          </div>
+          <div class="col-12 col-md-4 text-center text-md-end">
+            <a href="#tabel-riwayat" class="btn btn-outline-light me-2 mb-2">
+              <i class="bi bi-table me-1"></i>Tabel Rekapitulasi
+            </a>
+            <a href="index.html" class="btn btn-light mb-2">
+              <i class="bi bi-arrow-left me-1"></i>Kembali ke Beranda
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BAGIAN 1: GALERI KARTU PROYEK (HTML5 Semantic: <section>) -->
+    <section class="py-5">
+      <div class="container">
+        
+        <div class="section-title-wrap text-center">
+          <span class="section-tag">Galeri Proyek Utama</span>
+          <h2 class="section-heading">Proyek &amp; Studi Kasus</h2>
+          <p class="section-desc mx-auto">
+            Tiga pilar portofolio utama yang membuktikan kapabilitas teknis dan kepemimpinan operasional Tristan Hudi Wibisono.
+          </p>
+        </div>
+
+        <div class="row g-4">
+
+          <!-- KARTU 1: Project Control -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="project-card">
+              <figure class="project-img-wrapper mb-0">
+                <img src="images/project1.svg" alt="Project Control Dashboard PT Bintang Komunikasi Utama" class="img-fluid" loading="lazy">
+                <figcaption class="visually-hidden">Project Control Dashboard PT BKU</figcaption>
+                <span class="project-category-badge">Industri Telekomunikasi</span>
+              </figure>
+              <div class="project-body">
+                <div class="d-flex justify-content-between align-items-center mb-1">
+                  <small class="text-muted font-monospace">Tahun: 2024</small>
+                  <span class="badge bg-primary-subtle text-primary border border-primary-subtle">Magang Industri</span>
+                </div>
+                <h3 class="project-title">Project Control &amp; Material Planning</h3>
+                <p class="project-desc">
+                  <strong>PT. Bintang Komunikasi Utama</strong> &mdash; Mengelola aspek administratif proyek, monitoring real-time kepatuhan jadwal kerja proyek (98.4% on-track), efisiensi anggaran, dan koordinasi ketersediaan material produksi telekomunikasi.
+                </p>
+                <div class="project-tech-tags">
+                  <span class="tech-tag-sm">Project Control</span>
+                  <span class="tech-tag-sm">Material Planning</span>
+                  <span class="tech-tag-sm">Quality QA</span>
+                  <span class="tech-tag-sm">MS Office</span>
+                </div>
+                <div class="mt-auto pt-2">
+                  <button type="button" class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#modalProject1">
+                    <i class="bi bi-search me-1"></i>Lihat Studi Kasus
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- KARTU 2: MikroTik & WinBox -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="project-card">
+              <figure class="project-img-wrapper mb-0">
+                <img src="images/project2.svg" alt="Konfigurasi Lab Jaringan MikroTik RouterOS" class="img-fluid" loading="lazy">
+                <figcaption class="visually-hidden">Topologi MikroTik RouterOS Lab</figcaption>
+                <span class="project-category-badge">Infrastruktur TKJ</span>
+              </figure>
+              <div class="project-body">
+                <div class="d-flex justify-content-between align-items-center mb-1">
+                  <small class="text-muted font-monospace">Tahun: 2023 &ndash; 2024</small>
+                  <span class="badge bg-success-subtle text-success border border-success-subtle">Lab Jaringan</span>
+                </div>
+                <h3 class="project-title">Infrastruktur Jaringan MikroTik &amp; WinBox</h3>
+                <p class="project-desc">
+                  <strong>SMK Budhi Warman 1</strong> &mdash; Perancangan topologi jaringan lokal, konfigurasi RouterOS melalui WinBox dan CLI Tools, manajemen IP DHCP pool, pengamanan Firewall NAT, serta pembatasan kuota bandwidth (Simple Queues).
+                </p>
+                <div class="project-tech-tags">
+                  <span class="tech-tag-sm">MikroTik RouterOS</span>
+                  <span class="tech-tag-sm">WinBox</span>
+                  <span class="tech-tag-sm">CLI Tools</span>
+                  <span class="tech-tag-sm">Bandwidth Mgmt</span>
+                </div>
+                <div class="mt-auto pt-2">
+                  <button type="button" class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#modalProject2">
+                    <i class="bi bi-search me-1"></i>Lihat Studi Kasus
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- KARTU 3: Radio & Event -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="project-card">
+              <figure class="project-img-wrapper mb-0">
+                <img src="images/project3.svg" alt="Penyiaran Radio Sekolah dan Manajemen Acara" class="img-fluid" loading="lazy">
+                <figcaption class="visually-hidden">Radio Broadcast &amp; Event Planner</figcaption>
+                <span class="project-category-badge">Media &amp; Kepemimpinan</span>
+              </figure>
+              <div class="project-body">
+                <div class="d-flex justify-content-between align-items-center mb-1">
+                  <small class="text-muted font-monospace">Tahun: 2022 &ndash; 2024</small>
+                  <span class="badge bg-info-subtle text-info-emphasis border border-info-subtle">Organisasi Siswa</span>
+                </div>
+                <h3 class="project-title">Penyiaran Radio &amp; Manajemen Event</h3>
+                <p class="project-desc">
+                  <strong>SMK Budhi Warman 1</strong> &mdash; Mengisi siaran radio sekolah terjadwal, memimpin Seksi Bidang Sastra &amp; Budaya (2023-2024) serta Seksi Bidang Komunikasi Bahasa Inggris (2022-2023) dalam festival dan perlombaan.
+                </p>
+                <div class="project-tech-tags">
+                  <span class="tech-tag-sm">Public Speaking</span>
+                  <span class="tech-tag-sm">Event Planning</span>
+                  <span class="tech-tag-sm">Canva</span>
+                  <span class="tech-tag-sm">VN Editor</span>
+                </div>
+                <div class="mt-auto pt-2">
+                  <button type="button" class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#modalProject3">
+                    <i class="bi bi-search me-1"></i>Lihat Studi Kasus
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- BAGIAN 2: TABEL REKAPITULASI RESUME & RIWAYAT (HTML5 Semantic: <section id="tabel-riwayat">) -->
+    <section id="tabel-riwayat" class="py-5 bg-light">
+      <div class="container">
+        
+        <div class="section-title-wrap text-center">
+          <span class="section-tag">Representasi Tabular Formal</span>
+          <h2 class="section-heading">Tabel Rekapitulasi Riwayat Hidup</h2>
+          <p class="section-desc mx-auto">
+            Data tabular lengkap riwayat pendidikan formal, pengalaman kerja magang industri, dan jabatan kepemimpinan organisasi Tristan Hudi Wibisono.
+          </p>
+        </div>
+
+        <!-- Tabel Responsif Bootstrap 5 -->
+        <div class="card shadow-sm border-0 rounded-3 overflow-hidden">
+          <div class="table-responsive">
+            <table class="table table-striped table-hover align-middle mb-0">
+              <thead class="table-dark">
+                <tr>
+                  <th scope="col" style="width: 60px;" class="text-center">No</th>
+                  <th scope="col">Peran / Jabatan</th>
+                  <th scope="col">Institusi / Perusahaan</th>
+                  <th scope="col">Periode</th>
+                  <th scope="col">Uraian Tanggung Jawab Utama</th>
+                  <th scope="col" class="text-center">Kategori</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="text-center fw-bold">01</td>
+                  <td><strong>Informatics Engineering Student</strong></td>
+                  <td>Universitas Paramadina</td>
+                  <td><span class="badge bg-primary">2025 &ndash; Sekarang</span></td>
+                  <td>Mendalami algoritma komputasi, struktur data, dan pengembangan web standar.</td>
+                  <td class="text-center"><span class="badge bg-dark">Pendidikan Tinggi</span></td>
+                </tr>
+                <tr>
+                  <td class="text-center fw-bold">02</td>
+                  <td><strong>Project Control &amp; Admin Intern</strong></td>
+                  <td>PT. Bintang Komunikasi Utama</td>
+                  <td><span class="badge bg-secondary">2024</span></td>
+                  <td>Monitoring jadwal proyek telekomunikasi, kepatuhan mutu, dan anggaran.</td>
+                  <td class="text-center"><span class="badge bg-primary">Magang Industri</span></td>
+                </tr>
+                <tr>
+                  <td class="text-center fw-bold">03</td>
+                  <td><strong>Material Planner Intern</strong></td>
+                  <td>PT. Bintang Komunikasi Utama</td>
+                  <td><span class="badge bg-secondary">2024</span></td>
+                  <td>Perencanaan alokasi dan pengadaan material perangkat produksi telekomunikasi.</td>
+                  <td class="text-center"><span class="badge bg-primary">Magang Industri</span></td>
+                </tr>
+                <tr>
+                  <td class="text-center fw-bold">04</td>
+                  <td><strong>Ketua Seksi Bidang (Sastra &amp; Budaya)</strong></td>
+                  <td>SMK Budhi Warman 1</td>
+                  <td><span class="badge bg-secondary">2023 &ndash; 2024</span></td>
+                  <td>Menyelenggarakan festival lomba sastra/budaya dan apresiasi seni siswa.</td>
+                  <td class="text-center"><span class="badge bg-secondary">Kepemimpinan</span></td>
+                </tr>
+                <tr>
+                  <td class="text-center fw-bold">05</td>
+                  <td><strong>Ketua Seksi Bidang (Bahasa Inggris)</strong></td>
+                  <td>SMK Budhi Warman 1</td>
+                  <td><span class="badge bg-secondary">2022 &ndash; 2023</span></td>
+                  <td>Pelatihan public speaking bahasa Inggris &amp; penyelenggaraan agenda kolaboratif.</td>
+                  <td class="text-center"><span class="badge bg-secondary">Kepemimpinan</span></td>
+                </tr>
+                <tr>
+                  <td class="text-center fw-bold">06</td>
+                  <td><strong>Penyiar Radio</strong></td>
+                  <td>Radio SMK Budhi Warman 1</td>
+                  <td><span class="badge bg-secondary">2022 &ndash; 2023</span></td>
+                  <td>Menyampaikan siaran edukatif dan menyusun materi konten siaran berkala.</td>
+                  <td class="text-center"><span class="badge bg-info text-dark">Broadcasting</span></td>
+                </tr>
+                <tr>
+                  <td class="text-center fw-bold">07</td>
+                  <td><strong>Computer &amp; Network Engineering</strong></td>
+                  <td>SMK Budhi Warman 1</td>
+                  <td><span class="badge bg-secondary">2022 &ndash; 2025</span></td>
+                  <td>Spesialisasi teknis instalasi dan pemeliharaan infrastruktur jaringan komputer.</td>
+                  <td class="text-center"><span class="badge bg-dark">Pendidikan Menengah</span></td>
+                </tr>
+              </tbody>
+              <tfoot class="table-light">
+                <tr>
+                  <td colspan="6" class="text-center small text-muted py-3">
+                    <em>Seluruh data tabel di atas merupakan rekam jejak resmi yang diverifikasi dari portofolio Tristan Hudi Wibisono.</em>
+                  </td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- BAGIAN 3: METODOLOGI KERJA 5 LANGKAH (HTML5 Semantic: <section>) -->
+    <section class="py-5">
+      <div class="container">
+        
+        <div class="section-title-wrap text-center">
+          <span class="section-tag">Standar Operasional Pribadi</span>
+          <h2 class="section-heading">5 Langkah Metodologi Kerja Berorientasi Hasil</h2>
+          <p class="section-desc mx-auto">
+            Prinsip fundamental yang diterapkan Tristan Hudi Wibisono dalam menyelesaikan setiap tantangan teknis maupun manajerial.
+          </p>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 g-3">
+          
+          <div class="col">
+            <div class="card h-100 p-3 border shadow-sm text-center">
+              <div class="display-6 fw-bold text-primary mb-2">01</div>
+              <h3 class="h6 fw-bold text-dark text-uppercase mb-2">Identifikasi</h3>
+              <p class="small text-muted mb-0">Menganalisis kebutuhan, ketersediaan material, dan spesifikasi teknis jaringan.</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 p-3 border shadow-sm text-center">
+              <div class="display-6 fw-bold text-primary mb-2">02</div>
+              <h3 class="h6 fw-bold text-dark text-uppercase mb-2">Komunikasi</h3>
+              <p class="small text-muted mb-0">Menyelaraskan target tim melalui komunikasi aktif, transparan, dan terarah.</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 p-3 border shadow-sm text-center">
+              <div class="display-6 fw-bold text-primary mb-2">03</div>
+              <h3 class="h6 fw-bold text-dark text-uppercase mb-2">Perencanaan</h3>
+              <p class="small text-muted mb-0">Menyusun jadwal linier terukur dan memetakan alokasi sumber daya kritis.</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 p-3 border shadow-sm text-center">
+              <div class="display-6 fw-bold text-primary mb-2">04</div>
+              <h3 class="h6 fw-bold text-dark text-uppercase mb-2">Eksekusi</h3>
+              <p class="small text-muted mb-0">Mengimplementasikan konfigurasi teknis dan prosedur kerja dengan ketelitian tinggi.</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 p-3 border shadow-sm text-center">
+              <div class="display-6 fw-bold text-primary mb-2">05</div>
+              <h3 class="h6 fw-bold text-dark text-uppercase mb-2">Evaluasi</h3>
+              <p class="small text-muted mb-0">Melakukan pengujian mutu (QA), evaluasi performa jaringan, dan dokumentasi tuntas.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================================
+       MODALS DETAIL PROYEK
+       ========================================================================= -->
+  <div class="modal fade" id="modalProject1" tabindex="-1" aria-labelledby="modalP1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-dark text-white">
+          <h1 class="modal-title fs-5" id="modalP1Label"><i class="bi bi-bar-chart-fill text-primary me-2"></i>Project Control &amp; Material Planning</h1>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Tutup"></button>
+        </div>
+        <div class="modal-body p-4">
+          <img src="images/project1.svg" alt="Project Control" class="img-fluid rounded mb-3 w-100">
+          <p class="text-muted small">
+            PT. Bintang Komunikasi Utama &mdash; Memantau timeline pekerjaan proyek telekomunikasi, rekapitulasi data material produksi, serta pengujian mutu (QA).
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalProject2" tabindex="-1" aria-labelledby="modalP2Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-dark text-white">
+          <h1 class="modal-title fs-5" id="modalP2Label"><i class="bi bi-router-fill text-primary me-2"></i>Infrastruktur MikroTik &amp; WinBox</h1>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Tutup"></button>
+        </div>
+        <div class="modal-body p-4">
+          <img src="images/project2.svg" alt="MikroTik Config" class="img-fluid rounded mb-3 w-100">
+          <p class="text-muted small">
+            SMK Budhi Warman 1 &mdash; Konfigurasi RouterOS, routing LAN, Firewall NAT, DHCP Pool, dan pembatasan bandwidth (Simple Queues).
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalProject3" tabindex="-1" aria-labelledby="modalP3Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-dark text-white">
+          <h1 class="modal-title fs-5" id="modalP3Label"><i class="bi bi-broadcast text-primary me-2"></i>Penyiaran Radio &amp; Event Organisasi</h1>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Tutup"></button>
+        </div>
+        <div class="modal-body p-4">
+          <img src="images/project3.svg" alt="Radio Broadcast" class="img-fluid rounded mb-3 w-100">
+          <p class="text-muted small">
+            SMK Budhi Warman 1 &mdash; Siaran radio informatif terjadwal dan kepanitiaan festival sastra/bahasa Inggris antarsekolah.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       FOOTER SITUS (HTML5 Semantic: <footer>)
+       ========================================================================= -->
+  <footer class="site-footer py-5">
+    <div class="container">
+      <div class="row g-4 justify-content-between">
+        
+        <div class="col-12 col-md-5">
+          <div class="d-flex align-items-center gap-2 mb-2">
+            <span class="brand-badge">THW</span>
+            <span class="footer-brand-title mb-0">Tristan Hudi Wibisono</span>
+          </div>
+          <p class="text-secondary small mb-3">
+            Mahasiswa S1 Teknik Informatika Universitas Paramadina. Portofolio interaktif dibangun dengan Bootstrap 5 &amp; standar HTML semantik modern.
+          </p>
+          <div class="d-flex gap-2">
+            <a href="mailto:tristan.wibi@gmail.com" class="btn btn-outline-light btn-sm" aria-label="Email"><i class="bi bi-envelope"></i></a>
+            <a href="tel:8999031789" class="btn btn-outline-light btn-sm" aria-label="Telepon"><i class="bi bi-telephone"></i></a>
+            <a href="https://wa.me/628999031789" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light btn-sm" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3">
+          <h4 class="footer-heading">Navigasi Halaman</h4>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="bi bi-chevron-right me-1"></i>Beranda Utama</a></li>
+            <li><a href="index.html#tentang"><i class="bi bi-chevron-right me-1"></i>Tentang Saya</a></li>
+            <li><a href="portofolio.html"><i class="bi bi-chevron-right me-1"></i>Arsip &amp; Proyek</a></li>
+            <li><a href="kontak.html"><i class="bi bi-chevron-right me-1"></i>Halaman Kontak</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-3">
+          <h4 class="footer-heading">Kontak Cepat</h4>
+          <ul class="footer-links">
+            <li><i class="bi bi-geo-alt me-2 text-primary"></i>Jakarta, Indonesia</li>
+            <li><i class="bi bi-telephone me-2 text-primary"></i>8999-031-789</li>
+            <li><i class="bi bi-envelope me-2 text-primary"></i>tristan.wibi@gmail.com</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom-bar text-center text-md-between d-flex flex-column flex-md-row justify-content-between align-items-center gap-2 small text-secondary">
+        <div>&copy; 2026 <strong>Tristan Hudi Wibisono</strong>. Seluruh hak cipta dilindungi.</div>
+        <div>Bootstrap 5.3.3 &bull; HTML5 Semantik &amp; Responsif</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
